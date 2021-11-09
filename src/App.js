@@ -13,12 +13,12 @@ function App() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "100%",
         backgroundPosition: "center",
-        height: "100vh",
+        height: "200vh",
       }}
     >
-      <BaiTapXe />
-      {/* <Header />
-      <Body /> */}
+      {/* <BaiTapXe /> */}
+      <Header />
+      <Body />
     </div>
   );
 }

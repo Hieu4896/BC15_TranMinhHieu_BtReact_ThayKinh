@@ -82,10 +82,7 @@ export default class Body extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col-6">
-          <GlassesInfo />
-        </div>
-        <div className="col-6">
+        <div className="col-12">
           <WearGlasses state1={this.state} />
         </div>
         <div className="col-12" style={{ marginTop: "150px" }}>

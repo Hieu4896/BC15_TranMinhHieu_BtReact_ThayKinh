@@ -5,12 +5,18 @@ export default class WearGlasses extends Component {
     let { state1 } = this.props;
 
     return (
-      <div style={{ display: "flex" }}>
-        <img src={state1.img} width="20%" style={{ position: "relative" }} />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <img
+          src={state1.img}
+          width="20%"
+          style={{
+            position: "relative",
+          }}
+        />
         <img
           src={state1.img2}
-          width="15%"
-          style={{ position: "absolute", bottom: "100px", left: "35px" }}
+          width="10%"
+          style={{ position: "absolute", bottom: "225px", left: "700px" }}
         />
       </div>
     );
